@@ -1,0 +1,13 @@
+{
+  "attributes": {
+    "navigationBarTitleText": "首页",
+    "src": "",
+    "title": "首页"
+  },
+  "dataset": {
+    "state": {},
+    "query": {}
+  },
+  "extra": {},
+  "_ignoreResources": []
+}

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "preview:web": "tcb lowcode preview:app",
+    "preview:mp": "tcb lowcode preview:app --platform=mp"
+  },
+  "devDependencies": {
+    "@cloudbase/cli": "^2.5.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "<%= functionName %>",
+  "scripts": {
+    "dev": "scf invoke local"
+  },
+  "devDependencies": {
+    "serverless-cloud-framework": "^1.2.0"
+  }
+}

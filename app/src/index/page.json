@@ -1,0 +1,17 @@
+[
+  {
+    "id": "text1",
+    "component": "WdText",
+    "attributes": {
+      "inheritColor": true,
+      "maxLines": "1",
+      "text": "Hello World"
+    },
+    "directives": {
+      ":if": true
+    },
+    "extra": {
+      "attributeExtraData": {}
+    }
+  }
+]

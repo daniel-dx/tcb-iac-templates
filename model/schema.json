@@ -1,0 +1,24 @@
+{
+  "title": "<%= title %>",
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "dbInstanceType": "<%= dbInstanceType %>",
+  "schema": {
+    "x-kind": "tcb",
+    "x-defaultMethods": [
+      "wedaCreate",
+      "wedaDelete",
+      "wedaUpdate",
+      "wedaGetItem",
+      "wedaGetList",
+      "wedaGetRecords",
+      "wedaBatchCreate",
+      "wedaBatchUpdate",
+      "wedaBatchDelete"
+    ],
+    "type": "object",
+    "x-primary-column": "_id",
+    "required": [],
+    "properties": {}
+  }
+}
