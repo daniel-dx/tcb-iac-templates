@@ -1,0 +1,22 @@
+{
+  "name": "tcb-repo",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.7.0",
+  "workspaces": [
+    "apps/*",
+    "functions/*",
+    "models/*",
+    "webapps/*",
+    "apis/*"
+  ]
+}
