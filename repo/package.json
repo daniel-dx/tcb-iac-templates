@@ -18,5 +18,8 @@
     "models/*",
     "webapps/*",
     "apis/*"
-  ]
+  ],
+  "tcb": {
+    "type": "repo"
+  }
 }
