@@ -1,6 +1,6 @@
 {
   "name": "<%= functionName %>",
-  "tcb": {
+  "tcbRepo": {
     "type": "function"
   },
   "scripts": {

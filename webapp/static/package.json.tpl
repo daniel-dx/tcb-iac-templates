@@ -3,7 +3,7 @@
   "scripts": {
     "build": "shx mkdir -p dist && shx cp -r src/* dist"
   },
-  "tcb": {
+  "tcbRepo": {
     "type": "webapp"
   },
   "tcb:webapp": {},

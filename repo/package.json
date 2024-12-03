@@ -19,7 +19,7 @@
     "webapps/*",
     "apis/*"
   ],
-  "tcb": {
+  "tcbRepo": {
     "type": "repo"
   }
 }
