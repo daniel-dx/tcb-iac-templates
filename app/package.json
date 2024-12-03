@@ -1,4 +1,7 @@
 {
+  "tcb": {
+    "type": "app"
+  },
   "scripts": {
     "preview:web": "tcb lowcode preview:app",
     "preview:mp": "tcb lowcode preview:app --platform=mp"

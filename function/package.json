@@ -1,5 +1,8 @@
 {
   "name": "<%= functionName %>",
+  "tcb": {
+    "type": "function"
+  },
   "scripts": {
     "dev": "scf invoke local"
   },
