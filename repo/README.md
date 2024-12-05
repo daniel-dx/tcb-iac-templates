@@ -45,7 +45,7 @@
 ```json
 {
   "tcbRepo": {
-    "appRoot": "app",
+    "appRoot": "apps",
     "appMappings": {
       "app-1": "hello-app"
     }
@@ -53,7 +53,7 @@
 }
 ```
 
-现在，你的应用 app-1 的路径为 `app/hello-app`
+现在，你的应用 app-1 的路径为 `apps/hello-app`
 
 ### tcbRepo.functionMappings
 
