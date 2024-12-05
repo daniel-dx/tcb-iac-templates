@@ -20,6 +20,16 @@
     "apis/*"
   ],
   "tcbRepo": {
-    "type": "repo"
+    "type": "repo",
+    "appRoot": "app",
+    "functionRoot": "function",
+    "apisRoot": "apis",
+    "modelRoot": "model",
+    "webappRoot": "webapp",
+    "appMappings": {},
+    "functionMappings": {},
+    "apisMappings": {},
+    "modelMappings": {},
+    "webappMappings": {}
   }
 }
