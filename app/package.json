@@ -6,7 +6,6 @@
   "scripts": {
     "preview:web": "tcb lowcode preview:app",
     "preview:mp": "tcb lowcode preview:app --platform=mp",
-    "init": "tcb res init",
     "pull": "tcb res pull",
     "build": "tcb res build",
     "dev": "tcb res dev",

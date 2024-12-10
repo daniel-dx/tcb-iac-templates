@@ -4,7 +4,6 @@
     "type": "apis"
   },
   "scripts": {
-    "init": "tcb res init",
     "pull": "tcb res pull",
     "build": "tcb res build",
     "dev": "tcb res dev",

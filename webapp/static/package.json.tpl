@@ -1,7 +1,6 @@
 {
   "name": "@webapp/<%= name %>",
   "scripts": {
-    "init": "tcb res init",
     "pull": "tcb res pull",
     "build": "shx mkdir -p dist && shx cp -r src/* dist",
     "dev": "tcb res dev",
