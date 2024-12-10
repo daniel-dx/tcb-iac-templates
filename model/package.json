@@ -2,5 +2,14 @@
   "name": "@model/<%= name %>",
   "tcbRepo": {
     "type": "model"
+  },
+  "scripts": {
+    "init": "tcb res init",
+    "pull": "tcb res pull",
+    "build": "tcb res build",
+    "dev": "tcb res dev",
+    "apply": "tcb res apply",
+    "destory": "tcb res destory",
+    "state": "tcb res state"
   }
 }

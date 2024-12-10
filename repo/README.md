@@ -12,6 +12,18 @@ npm install -g pnpm
 pnpm install
 ```
 
+## 运行
+
+假设想运行 `functions/hi_fun` 云函数项目的 dev 命令，可以执行如下命令：
+
+```bash
+# 指定运行目录
+pnpm run dev --filter ./functions/hi_fun 
+
+# 指定资源名称
+pnpm run dev --filter @function/hi_fun
+```
+
 ## 配置
 
 ### tcbRepo.appRoot

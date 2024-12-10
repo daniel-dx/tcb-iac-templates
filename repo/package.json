@@ -2,28 +2,22 @@
   "name": "tcb-repo",
   "private": true,
   "scripts": {
-    "init": "turbo init",
-    "pull": "turbo pull",
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "apply": "turbo apply",
-    "destory": "turbo destory",
-    "state": "turbo state"
+    "init": "tcb res init",
+    "pull": "tcb res pull",
+    "build": "tcb res build",
+    "dev": "tcb res dev",
+    "apply": "tcb res apply",
+    "destory": "tcb res destory",
+    "state": "tcb res state"
   },
   "devDependencies": {
-    "turbo": "^2.3.3"
+    "turbo": "^2.3.3",
+    "@cloudbase/cli": "*"
   },
   "engines": {
     "node": ">=18"
   },
   "packageManager": "pnpm@8.15.4",
-  "workspaces": [
-    "apps/*",
-    "functions/*",
-    "models/*",
-    "webapps/*",
-    "apis/*"
-  ],
   "tcbRepo": {
     "type": "repo",
     "appRoot": "apps",

@@ -4,7 +4,13 @@
     "type": "function"
   },
   "scripts": {
-    "dev": "scf invoke local"
+    "init": "tcb res init",
+    "pull": "tcb res pull",
+    "build": "tcb res build",
+    "dev": "scf invoke local",
+    "apply": "tcb res apply",
+    "destory": "tcb res destory",
+    "state": "tcb res state"
   },
   "devDependencies": {
     "serverless-cloud-framework": "^1.2.0"
