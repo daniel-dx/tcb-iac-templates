@@ -2,8 +2,13 @@
   "name": "tcb-repo",
   "private": true,
   "scripts": {
+    "init": "turbo init",
+    "pull": "turbo pull",
     "build": "turbo build",
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "apply": "turbo apply",
+    "destory": "turbo destory",
+    "state": "turbo state"
   },
   "devDependencies": {
     "turbo": "^2.3.3"
@@ -11,7 +16,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.7.0",
+  "packageManager": "pnpm@8.15.4",
   "workspaces": [
     "apps/*",
     "functions/*",

@@ -1,0 +1,6 @@
+packages:
+  - 'apps/*'
+  - 'functions/*'
+  - 'models/*'
+  - 'webapps/*'
+  - 'apis/*' 

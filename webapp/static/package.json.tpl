@@ -1,5 +1,5 @@
 {
-  "name": "<%= name %>",
+  "name": "@webapp/<%= name %>",
   "scripts": {
     "build": "shx mkdir -p dist && shx cp -r src/* dist"
   },

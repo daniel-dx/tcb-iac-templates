@@ -1,4 +1,5 @@
 {
+  "name": "@function/<%= functionName %>",
   "tcbRepo": {
     "type": "function"
   },

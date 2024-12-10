@@ -1,0 +1,26 @@
+{
+  "globalDependencies": [".env"],
+  "tasks": {
+    "init": {
+      "cache": false
+    },
+    "pull": {
+      "cache": false
+    },
+    "build": {
+      "cache": false
+    },
+    "dev": {
+      "cache": false
+    },
+    "apply": {
+      "cache": false
+    },
+    "destory": {
+      "cache": false
+    },
+    "state": {
+      "cache": false
+    }
+  }
+}

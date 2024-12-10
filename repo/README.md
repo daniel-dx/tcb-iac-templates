@@ -2,37 +2,47 @@
 
 腾讯云云开发资源仓库
 
+## 安装
+
+```bash
+# 安装 pnpm
+npm install -g pnpm
+
+# 安装依赖
+pnpm install
+```
+
 ## 配置
 
 ### tcbRepo.appRoot
 
 指定微搭应用的目录(需为相对路径)
 
-> 如果你修改了该配置，请对应修改 `workspaces` 中的路径
+> 如果你修改了该配置，请对应修改 `pnpm-workspace.yaml` 中的路径
 
 ### tcbRepo.functionRoot
 
 指定云函数的目录(需为相对路径)
 
-> 如果你修改了该配置，请对应修改 `workspaces` 中的路径
+> 如果你修改了该配置，请对应修改 `pnpm-workspace.yaml` 中的路径
 
 ### tcbRepo.apisRoot
 
 指定 APIs 的目录(需为相对路径)
 
-> 如果你修改了该配置，请对应修改 `workspaces` 中的路径
+> 如果你修改了该配置，请对应修改 `pnpm-workspace.yaml` 中的路径
 
 ### tcbRepo.modelRoot
 
 指定数据模型的目录(需为相对路径)
 
-> 如果你修改了该配置，请对应修改 `workspaces` 中的路径
+> 如果你修改了该配置，请对应修改 `pnpm-workspace.yaml` 中的路径
 
 ### tcbRepo.webappRoot
 
 指定静态应用的目录(需为相对路径)
 
-> 如果你修改了该配置，请对应修改 `workspaces` 中的路径
+> 如果你修改了该配置，请对应修改 `pnpm-workspace.yaml` 中的路径
 
 ### tcbRepo.appMappings
 

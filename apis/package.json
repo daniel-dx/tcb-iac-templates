@@ -1,5 +1,7 @@
 {
+  "name": "@apis/<%= name %>",
   "tcbRepo": {
     "type": "apis"
   }
 }
+
