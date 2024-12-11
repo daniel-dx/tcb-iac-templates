@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "turbo": "^2.3.3",
-    "@cloudbase/cli": "*"
+    "@cloudbase/cli": "alpha"
   },
   "engines": {
     "node": ">=18"
