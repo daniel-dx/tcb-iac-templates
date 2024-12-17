@@ -13,6 +13,6 @@
     "tcb-ff": "tcb-ff"
   },
   "devDependencies": {
-    "@cloudbase/functions-framework": "^1.0.0"
+    "@cloudbase/functions-framework": "latest"
   }
 }
