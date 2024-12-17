@@ -15,5 +15,6 @@
     "state": "tcb res state"
   },
   "devDependencies": {
+    "@cloudbase/cli": "alpha"
   }
 }

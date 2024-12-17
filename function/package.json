@@ -9,9 +9,10 @@
     "dev": "scf invoke local",
     "apply": "tcb res apply",
     "destory": "tcb res destory",
-    "state": "tcb res state"
+    "state": "tcb res state",
+    "tcb-ff": "tcb-ff"
   },
   "devDependencies": {
-    "serverless-cloud-framework": "^1.2.0"
+    "@cloudbase/functions-framework": "^1.0.0"
   }
 }

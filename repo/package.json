@@ -8,10 +8,12 @@
     "dev": "tcb res dev",
     "apply": "tcb res apply",
     "destory": "tcb res destory",
-    "state": "tcb res state"
+    "state": "tcb res state",
+    "tcb-ff": "tcb-ff"
   },
   "devDependencies": {
-    "turbo": "^2.3.3"
+    "turbo": "^2.3.3",
+    "@cloudbase/functions-framework": "^1.0.0"
   },
   "engines": {
     "node": ">=18"
