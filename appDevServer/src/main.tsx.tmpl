@@ -1,0 +1,35 @@
+import React, { Suspense } from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
+// 使用 React.lazy 进行懒加载
+// const Capp_IZkOUekk = React.lazy(() => import('./apps/app-IZkOUekk/App'));
+// <!-- Don't touch add import here -->
+
+export function Home() {
+  return (
+    <div>
+      <h1>选择应用：</h1>
+      <ul>
+        {/* <li>
+          <Link to="/app-IZkOUekk">app-IZkOUekk</Link>
+        </li> */}
+        {/* <!-- Don't touch add item here --> */}
+      </ul>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Suspense fallback={<div>加载中...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/app-IZkOUekk" element={<Capp_IZkOUekk />} /> */}
+          {/* <!-- Don't touch add route here --> */}
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
+  </React.StrictMode>,
+);

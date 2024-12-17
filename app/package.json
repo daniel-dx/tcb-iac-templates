@@ -6,6 +6,7 @@
   "scripts": {
     "preview:web": "tcb lowcode preview:app",
     "preview:mp": "tcb lowcode preview:app --platform=mp",
+    "watch": "tcb lowcode preview:app --only-watch",
     "pull": "tcb res pull",
     "build": "tcb res build",
     "dev": "tcb res dev",
@@ -14,6 +15,5 @@
     "state": "tcb res state"
   },
   "devDependencies": {
-    "@cloudbase/cli": "alpha"
   }
 }

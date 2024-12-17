@@ -1,0 +1,20 @@
+import { WebPreview } from '../../../WebPreview';
+import dependencies from './dependencies';
+import { default as cals, sub_cals } from './cals';
+
+function App() {
+  return (
+    <>
+      <WebPreview
+        cals={cals}
+        sub_cals={sub_cals}
+        dependencies={dependencies}
+        appId="<%= appId %>"
+        uin="<%= uin %>"
+        envId="<%= envId %>"
+      />
+    </>
+  );
+}
+
+export default App;
