@@ -2,7 +2,7 @@
 
   $gl = 1;
 
-  function main_handler($event, $context) {
+  function main($event, $context) {
       global $gl;
       print "good";
       print " job ";
