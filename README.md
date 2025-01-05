@@ -2,6 +2,8 @@
 
 TCB IaC Templates
 
+更新后需要打包成 zip 包并发布到 COS 的 tcb-iac-templates 目录下（访问地址为 https://weda.cloud.tencent.com/tcb-iac-templates/tcb-iac-templates.zip）
+
 ## 注意事项
 
 - 资源模板的目录名称为全小写，比如 webapp，与对应的 ResourceType 的小写形式保持一致
