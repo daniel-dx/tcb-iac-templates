@@ -1,7 +1,7 @@
 {
-  "name": "@function/<%= functionName %>",
+  "name": "@functionv2/<%= functionName %>",
   "tcbRepo": {
-    "type": "function"
+    "type": "functionv2"
   },
   "scripts": {
     "tcb-ff": "tcb-ff"
