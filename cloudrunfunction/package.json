@@ -1,7 +1,7 @@
 {
-  "name": "@functionv2/<%= functionName %>",
+  "name": "@cloudrunfunction/<%= functionName %>",
   "tcbRepo": {
-    "type": "functionv2"
+    "type": "cloudrunfunction"
   },
   "scripts": {
     "tcb-ff": "tcb-ff"

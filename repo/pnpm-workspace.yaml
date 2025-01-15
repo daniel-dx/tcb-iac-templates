@@ -1,6 +1,7 @@
 packages:
   - 'apps/*'
-  - 'functions/*'
+  - 'cloudfunctions/*'
+  - 'cloudrunfunctions/*'
   - 'models/*'
   - 'webapps/*'
   - 'apis/*' 

@@ -2,13 +2,6 @@
   "name": "tcb-repo",
   "private": true,
   "scripts": {
-    "init": "tcb res init",
-    "pull": "tcb res pull",
-    "build": "tcb res build",
-    "dev": "tcb res dev",
-    "apply": "tcb res apply",
-    "destory": "tcb res destory",
-    "state": "tcb res state",
     "tcb-ff": "tcb-ff"
   },
   "devDependencies": {
@@ -22,7 +15,8 @@
   "tcbRepo": {
     "type": "repo",
     "appRoot": "apps",
-    "functionRoot": "functions",
+    "functionRoot": "cloudfunctions",
+    "cloudrunfunctionRoot": "cloudrunfunctions",
     "apisRoot": "apis",
     "modelRoot": "models",
     "webappRoot": "webapps",
@@ -30,6 +24,7 @@
     "functionMappings": {},
     "apisMappings": {},
     "modelMappings": {},
-    "webappMappings": {}
+    "webappMappings": {},
+    "cloudrunfunctionMappings": {}
   }
 }
