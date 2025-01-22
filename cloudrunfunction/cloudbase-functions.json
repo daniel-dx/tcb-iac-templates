@@ -3,7 +3,8 @@
   "functions": [
     {
       "name": "default",
-      "directory": "."
+      "directory": ".",
+      "triggerPath": "/"
     },
     {
       "name": "hello",
