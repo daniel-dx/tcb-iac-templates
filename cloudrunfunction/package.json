@@ -6,6 +6,9 @@
   "scripts": {
     "tcb-ff": "tcb-ff"
   },
+  "dependencies": {
+    "@cloudbase/node-sdk": "latest"
+  },
   "devDependencies": {
     "@cloudbase/functions-framework": "latest"
   }
