@@ -10,6 +10,7 @@
     "@cloudbase/node-sdk": "latest"
   },
   "devDependencies": {
-    "@cloudbase/functions-framework": "latest"
+    "@cloudbase/functions-framework": "latest",
+    "@cloudbase/functions-typings": "latest"
   }
 }
