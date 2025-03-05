@@ -9,6 +9,3 @@ inputs:
   timeout: 20 # 函数执行超时时间，单位秒
   eip: false # 是否开启固定IP
   publicAccess: true # 是否开启公网访问
-  environment: #  环境变量
-    variables:
-      A: a
