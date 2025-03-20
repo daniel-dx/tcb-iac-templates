@@ -4,13 +4,16 @@
     "type": "cloudrunfunction"
   },
   "scripts": {
-    "tcb-ff": "tcb-ff"
+    "tcb-ff": "tcb-ff",
+    "dev": "tcb cloudfunction run -w",
+    "deploy": "tcb cloudfunction deploy"
   },
   "dependencies": {
-    "@cloudbase/node-sdk": "latest"
+    "@cloudbase/node-sdk": "^3.7.0"
   },
   "devDependencies": {
-    "@cloudbase/functions-framework": "latest",
-    "@cloudbase/functions-typings": "latest"
+    "@cloudbase/functions-framework": "^1.8.0",
+    "@cloudbase/functions-typings": "^1.0.0",
+    "@cloudbase/cli": "^2.6.10"
   }
 }
