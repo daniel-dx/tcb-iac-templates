@@ -1,0 +1,19 @@
+{
+    "name": "@cloudrun/<%= functionName %>",
+    "tcbRepo": {
+        "type": "cloudrun"
+    },
+    "version": "1.0.0",
+    "description": "Simple hello world sample in Node",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node index.js",
+        "deploy": "tcb cloudrun deploy"
+    },
+    "author": "",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

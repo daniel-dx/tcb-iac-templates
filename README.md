@@ -2,7 +2,10 @@
 
 TCB IaC Templates
 
-更新后需要打包成 zip 包并发布到 COS 的 tcb-iac-templates 目录下（访问地址为 https://weda.cloud.tencent.com/tcb-iac-templates/tcb-iac-templates.zip）
+更新后需要打包成 zip 包并发布到 COS 的 tcb-iac-templates 目录下
+https://console.cloud.tencent.com/cos/bucket?bucket=weda-cloud-1258344699&region=ap-shanghai&path=%252Ftcb-iac-templates%252F
+
+（访问地址为 https://weda.cloud.tencent.com/tcb-iac-templates/tcb-iac-templates.zip）
 
 ## 注意事项
 
